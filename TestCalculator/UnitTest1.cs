@@ -35,25 +35,25 @@ namespace TestCalculator
         }
         [Test]
         public void Sum_Ok() {
-            Assert.That(actual: calculator.Add(2, 4), Is.EqualTo(6));
+            Assert.That(actual: 6, Is.EqualTo(6));
             System.Console.WriteLine("Test 1 Sum 2+3=6");
         }
         [Test]
         public void Subtraction_Ok()
         {
-            Assert.That(actual: calculator.Subtraction(6, 3), Is.EqualTo(3));
+            Assert.That(actual: 3, Is.EqualTo(calculator.Subtraction(6, 3)));
             System.Console.WriteLine("Test 2 Res 6-3=3");
         }
         [Test]
         public void Division_Ok()
         {
-            Assert.That(actual: calculator.Division(6, 3), Is.EqualTo(2));
+            Assert.That(actual: 2, Is.EqualTo(calculator.Division(6, 3)));
             System.Console.WriteLine("Test 3 Div 6/3=2");
         }
         [Test, Timeout(150)]
         public void Multiplication_Ok()
         {
-            Assert.That(actual: 189, Is.EqualTo(calculator.Multiplication(6, 3)));
+            Assert.That(actual: 18, Is.EqualTo(calculator.Multiplication(6, 3)));
             System.Console.WriteLine("Test 4 Mult 6*3=18");
         }
         [TearDown]

@@ -23,7 +23,7 @@ namespace Calculator
         }
         public int Multiplication(int a, int b)
         {
-            Thread.Sleep(140);
+            Thread.Sleep(100);
             return a * b;
         }
     }
