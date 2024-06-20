@@ -1,0 +1,6 @@
+C:\Users\SOTO3\source\repos\slnCalculator\Calculator\bin\Debug\Calculator.dll
+C:\Users\SOTO3\source\repos\slnCalculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\SOTO3\source\repos\slnCalculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\SOTO3\source\repos\slnCalculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\SOTO3\source\repos\slnCalculator\Calculator\obj\Debug\Calculator.dll
+C:\Users\SOTO3\source\repos\slnCalculator\Calculator\obj\Debug\Calculator.pdb
