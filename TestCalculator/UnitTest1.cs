@@ -36,7 +36,7 @@ namespace TestCalculator
         [Test]
         public void Sum_Ok()
         {
-            Assert.That(actual: 6, Is.EqualTo(6));
+            Assert.That(actual: 6, Is.EqualTo(calculator.Subtraction(3, 3)));
             System.Console.WriteLine("Test 1 Sum 2+3=6");
         }
         [Test]
@@ -73,7 +73,7 @@ namespace TestCalculator
             new ValidationItem
             {
                 Expected = 3,
-                    A=6,
+                A=6,
                 B=3,
                 Action=2,
                 Message = "Test 2 Res 6-3=3 - Passed"
@@ -81,7 +81,7 @@ namespace TestCalculator
             new ValidationItem
             {
                 Expected = 2,
-                    A=6,
+                A=6,
                 B=3,
                 Action=3,
                 Message = "Test 3 Div 6/3=2 - Passed"
@@ -89,7 +89,7 @@ namespace TestCalculator
             new ValidationItem
             {
                 Expected = 18,
-                    A=6,
+                A=6,
                 B=3,
                 Action=4,
                 Message = "Test 4 Mult 6*3=18 - Passed"
