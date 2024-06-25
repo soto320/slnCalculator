@@ -88,7 +88,7 @@ namespace TestCalculator
             },
             new ValidationItem
             {
-                Expected = 18,
+                Expected = 183,
                 A=6,
                 B=3,
                 Action=4,
